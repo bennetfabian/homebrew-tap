@@ -10,4 +10,11 @@ cask "topaz-denoise-ai" do
   auto_updates true
 
   app "Topaz DeNoise AI.app"
+
+  zap trash: [
+    "~/Library/Application Support/Adobe/Lightroom/External Editor Presets/TopazDeNoiseAI.lrtemplate",
+    "~/Library/Preferences/com.topazlabs.Topaz DeNoise AI.plist",
+    "~/Library/Saved Application State/com.topazlabs.TopazDeNoiseAI.savedState",
+    "/Applications/Adobe Photoshop 2022/Plug-ins/TopazDeNoiseAI",
+  ]
 end
