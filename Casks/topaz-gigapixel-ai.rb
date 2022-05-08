@@ -13,6 +13,8 @@ cask "topaz-gigapixel-ai" do
 
   zap trash: [
     "~/Library/Application Support/Adobe/Lightroom/External Editor Presets/TopazGigapixelAI.lrtemplate",
+    "~/Library/Preferences/com.topazlabs.Topaz Gigapixel AI.plist",
+    "~/Library/Saved Application State/com.topazlabs.TopazGigapixelAI.savedState",
     "/Applications/Adobe Photoshop 2022/Plug-ins/TopazGigapixelAI",
   ]
 end
