@@ -10,4 +10,11 @@ cask "topaz-sharpen-ai" do
   auto_updates true
 
   app "Topaz Sharpen AI.app"
+
+  zap trash: [
+    "~/Library/Application Support/Adobe/Lightroom/External Editor Presets/TopazSharpenAI.lrtemplate",
+    "~/Library/Preferences/com.topazlabs.Topaz Sharpen AI.plist",
+    "~/Library/Saved Application State/com.topazlabs.TopazSharpenAI.savedState",
+    "/Applications/Adobe Photoshop 2022/Plug-ins/TopazSharpenAI",
+  ]
 end
