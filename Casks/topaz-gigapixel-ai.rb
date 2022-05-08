@@ -10,4 +10,9 @@ cask "topaz-gigapixel-ai" do
   auto_updates true
 
   app "Topaz Gigapixel AI.app"
+
+  zap trash: [
+    "~/Library/Application Support/Adobe/Lightroom/External Editor Presets/TopazGigapixelAI.lrtemplate",
+    "/Applications/Adobe Photoshop 2022/Plug-ins/TopazGigapixelAI",
+  ]
 end
