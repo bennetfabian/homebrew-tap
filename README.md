@@ -1,4 +1,6 @@
-# Bennetfabian Tap
+# bennetfabian's Homebrew tap
+
+Some formulae and casks I use personally that aren't in any of the official Homebrew repositories.
 
 ## How do I install these formulae?
 
