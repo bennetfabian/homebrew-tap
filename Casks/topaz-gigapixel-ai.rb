@@ -1,5 +1,5 @@
 cask "topaz-gigapixel-ai" do
-  version "6.0.0"
+  version "6.1.0"
   sha256 :no_check
 
   url "https://downloads.topazlabs.com/deploy/TopazGigapixelAI/latest/TopazGigapixelAI-Full-Installer.dmg"
