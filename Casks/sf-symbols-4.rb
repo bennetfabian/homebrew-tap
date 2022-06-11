@@ -7,12 +7,11 @@ cask "sf-symbols-4" do
   desc "Tool that provides consistent, highly configurable symbols for apps"
   homepage "https://developer.apple.com/design/human-interface-guidelines/sf-symbols/overview/"
 
-  auto_updates true
-
   livecheck do
     skip "Livecheck disabled"
   end
 
+  auto_updates true
 
   pkg "SF Symbols.pkg"
 

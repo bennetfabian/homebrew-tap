@@ -4,7 +4,7 @@ cask "iconly-pro" do
 
   url "https://cdn.iconly.pro/app/iconly-pro-setup-mac.dmg"
   name "Iconly Pro"
-  desc "Mac app for Iconly Pro"
+  desc "Desktop app for Iconly icons"
   homepage "https://iconly.pro/"
 
   app "Iconly Pro.app"
