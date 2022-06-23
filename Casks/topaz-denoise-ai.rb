@@ -1,5 +1,5 @@
 cask "topaz-denoise-ai" do
-  version "3.6.2"
+  version "3.7.0"
   sha256 :no_check
 
   url "https://downloads.topazlabs.com/deploy/TopazDeNoiseAI/latest/TopazDeNoiseAI-Full-Installer.dmg"
