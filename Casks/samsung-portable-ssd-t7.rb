@@ -10,9 +10,9 @@ cask "samsung-portable-ssd-t7" do
   pkg "SamsungPortableSSD_Setup_Mac_1.0.pkg"
 
   uninstall quit:      [
-    "com.samsung.portablessd.software",
-    "/Applications/SamsungPortableSSD_1.0.app",
-  ],
+              "com.samsung.portablessd.software",
+              "/Applications/SamsungPortableSSD_1.0.app",
+            ],
             launchctl: [
               "com.samsung.portablessd.mon",
             ],
