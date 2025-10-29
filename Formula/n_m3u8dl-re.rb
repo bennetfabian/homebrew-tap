@@ -1,7 +1,7 @@
 class NM3u8dlRe < Formula
   desc "Cross-Platform, modern and powerful stream downloader for MPD/M3U8/ISM"
   homepage "https://github.com/nilaoda/N_m3u8DL-RE"
-  version "0.3.0-beta"
+  version "0.5.1-beta"
   license "MIT"
 
   livecheck do
@@ -16,11 +16,10 @@ class NM3u8dlRe < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/nilaoda/N_m3u8DL-RE/releases/download/v0.3.0-beta/N_m3u8DL-RE_v0.3.0-beta_osx-arm64_20241203.tar.gz"
+      url "https://github.com/nilaoda/N_m3u8DL-RE/releases/download/v0.5.1-beta/N_m3u8DL-RE_v0.5.1-beta_osx-arm64_20251029.tar.gz"
     end
     on_intel do
-      url "https://github.com/nilaoda/N_m3u8DL-RE/releases/download/v0.3.0-beta/N_m3u8DL-RE_v0.3.0-beta_osx-x64_20241203.tar.gz"
-      sha256 "a75f80872b24ad2e67eef98c8f7edba60db512af83f5bb2cf8bdc3c1de273423"
+      url "https://github.com/nilaoda/N_m3u8DL-RE/releases/download/v0.5.1-beta/N_m3u8DL-RE_v0.5.1-beta_osx-x64_20251029.tar.gz"
     end
   end
 
